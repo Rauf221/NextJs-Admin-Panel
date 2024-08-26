@@ -1,0 +1,50 @@
+{
+  
+  "Product": [
+    {
+      "image": "/images/product/product-02.png",
+      "name": "Macbook Pro M1",
+      "category": "Electronics",
+      "price": 546,
+      "sold": 12,
+      "profit": 125,
+      "id": "64a7"
+    },
+    {
+      "image": "/images/product/product-03.png",
+      "name": "Dell Inspiron 15",
+      "category": "Electronics",
+      "price": 443,
+      "sold": 64,
+      "profit": 247,
+      "id": "c384"
+    },
+    {
+      "id": "07aa",
+      "image": "/images/product/product-01.png",
+      "name": "dwadawdawd",
+      "category": "wadawdd",
+      "price": "213123",
+      "sold": "321312",
+      "profit": "321313"
+    },
+    {
+      "id": "c93f",
+      "name": "e2wdawd",
+      "category": "dwadawd",
+      "price": "2313123",
+      "sold": "1321231",
+      "profit": "12321",
+      "image": "blob:http://localhost:3000/ddb1fc37-64cc-4431-83b8-4ddad4b7d262"
+    },
+    {
+      "id": "457d",
+      "name": "dawdawd",
+      "category": "w3dadasd",
+      "price": "31313",
+      "sold": "1313",
+      "profit": "13131",
+      "image": "blob:http://localhost:3000/bae6f2a4-76bf-4d18-b82b-1da32a1d4126"
+    }
+  ]
+}
