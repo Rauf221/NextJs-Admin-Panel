@@ -7,7 +7,7 @@ import { ErrorMessage, Field, Form, Formik } from 'formik';
 import * as Yup from 'yup';
 import axios from 'axios';
 
-// Validation schemas
+
 const loginValidationSchema = Yup.object().shape({
   logemail: Yup.string().required('Username is required'),
   logpass: Yup.string().min(6, 'Password must be at least 6 characters').required('Password is required'),
@@ -20,6 +20,19 @@ const signupValidationSchema = Yup.object().shape({
 });
 
 const LoginSignUP: React.FC = () => {
+ 
+    const [isSignUp, setIsSignUp] = useState(false);
+
+    const { trigger: loginservice, isMutating: loading, error: isErr } = useRequestMutation(
+        "login",
+        {
+            method: "POST",
+            module: "devApi",
+            headers: {
+                "Content-Type": "application/json",
+            },
+        }
+    );
   const router = useRouter();
   const [error, setError] = useState<string | null>(null);
 
